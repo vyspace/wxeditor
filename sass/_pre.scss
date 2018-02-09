@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	display: block;
+	@include prefix(text-size-adjust, 100%);
+}
+body {
+	background-color: $bgColor;
+	min-width: $minWidth;
+	line-height: 1.6;
+	font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+	color: $txtColor;
+	font-size: $txtSize;
+	-webkit-font-smoothing: antialiased;
+}

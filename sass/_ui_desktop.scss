@@ -1,0 +1,14 @@
+.desktop-head {
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(238,238,238,0.5);
+  .inner {
+    padding: 0 65px;
+    height: 80px;
+  }
+}
+.desktop-body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+  overflow-y: auto;
+}

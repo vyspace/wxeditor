@@ -1,0 +1,16 @@
+//base
+@mixin prefix($property, $value) {
+  -webkit-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+@mixin surfix($property, $value) {
+  #{$property}: -webkit-#{$value};
+  #{$property}: $value;
+}
+
+$bgColor: #f6f8f9;
+$minWidth: 1200px;
+$txtColor: #353535;
+$txtSize: 14px;

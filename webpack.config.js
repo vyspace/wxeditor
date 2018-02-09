@@ -85,10 +85,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.DllReferencePlugin({
-            contest: ROOT_PATH,
-            manifest: require('./manifest.json')
-        }),
         new CleanWebpackPlugin(
             cleanArray,
             {
