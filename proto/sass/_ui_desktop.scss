@@ -1,0 +1,42 @@
+.desk-head {
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(238,238,238,0.5);
+  .inner {
+    padding: 0 65px;
+    height: 80px;
+  }
+}
+.desk-body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+  position: relative;
+}
+.right-panel {
+  width: 210px;
+  border-left: 1px solid #e7e7eb;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+}
+.editor-panel {
+  margin-right: 211px;
+  background-color: #fff;
+  min-height: 320px;
+  position: relative;
+}
+.toolbar {
+  width: 100%;
+  min-height: 28px;
+  overflow: hidden;
+  zoom: 1;
+  .top {
+    padding: 20px 45px 0 45px;
+  }
+  .bottom {
+    padding: 20px 45px;
+  }
+  .tool {
+    margin: 1px 4px;
+  }
+}
