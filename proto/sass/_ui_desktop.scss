@@ -14,14 +14,24 @@
 }
 .right-panel {
   width: 210px;
-  border-left: 1px solid #e7e7eb;
   background-color: #fff;
   position: absolute;
   right: 0;
+  .btn-list {
+    padding: 20px;
+  }
+  li {
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  };
+  .mar-b {
+    margin-bottom: 20px;
+  }
 }
 .editor-panel {
   margin-right: 211px;
-  background-color: #fff;
   min-height: 320px;
   position: relative;
 }
